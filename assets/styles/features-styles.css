@@ -1,0 +1,43 @@
+.features-image {
+  flex: 1;
+}
+
+.features-list-content {
+  width: 480px;
+}
+
+.features-item-image {
+  width: 35px;
+  height: 35px;
+}
+
+.features-item-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #313c8c;
+}
+
+.features-item-description {
+  color: #5c5c5c;
+  font-size: 15px;
+  line-height: 26px;
+  font-family: "Open Sans", Sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  .features-list-content {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .features-list-content {
+    width: 100%;
+  }
+
+  .features-item-image {
+    width: 60px;
+    height: 60px;
+  }
+}

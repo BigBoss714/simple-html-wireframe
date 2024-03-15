@@ -1,0 +1,101 @@
+.choose-item-list :first-child {
+  border-top-left-radius: 4px;
+}
+
+.choose-item-list :nth-child(3) {
+  border-top-right-radius: 4px;
+}
+
+.choose-item-list :nth-last-child(3) {
+  border-bottom-left-radius: 4px;
+}
+
+.choose-item-list :nth-last-child(1) {
+  border-bottom-right-radius: 4px;
+}
+
+.choose-item {
+  width: 33.33%;
+  background-color: #f7f7f7;
+}
+
+.choose-item:hover {
+  background-color: white;
+}
+
+.choose-item-image {
+  width: 70px;
+  height: 70px;
+  color: #313c8c;
+}
+
+.choose-item-title {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Open Sans", Sans-serif;
+}
+
+.choose-item-description {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: "Open Sans", Sans-serif;
+}
+
+/* 
+  Media Query
+*/
+
+@media screen and (max-width: 1024px) {
+  .choose-item {
+    width: 50%;
+  }
+
+  .choose-item-list :first-child {
+    border-top-left-radius: 4px;
+  }
+
+  .choose-item-list :nth-child(2) {
+    border-top-right-radius: 4px;
+  }
+
+  .choose-item-list :nth-child(3) {
+    border-radius: 0px;
+  }
+
+  .choose-item-list :nth-last-child(3) {
+    border-radius: 0px;
+  }
+
+  .choose-item-list :nth-last-child(2) {
+    border-bottom-left-radius: 4px;
+  }
+
+  .choose-item-list :nth-last-child(1) {
+    border-bottom-right-radius: 4px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .choose-item {
+    width: 100%;
+  }
+
+  .choose-item-list :first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  .choose-item-list :nth-child(2) {
+    border-radius: 0px;
+  }
+
+  .choose-item-list :nth-last-child(2) {
+    border-radius: 0px;
+  }
+
+  .choose-item-list :nth-last-child(1) {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+}

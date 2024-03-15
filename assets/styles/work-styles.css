@@ -1,0 +1,13 @@
+.work-content {
+  height: 100vh;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, #313c8c 0%, #0c1239 50%);
+}
+
+.work-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  font-family: sans-serif;
+}

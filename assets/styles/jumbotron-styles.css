@@ -1,0 +1,41 @@
+.jumbotron-background {
+  background-image: url(https://www.samalert.io/wp-content/uploads/2023/02/SAMAlert-Top-Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron-textarea-width {
+  width: 520px;
+}
+
+.jumbotron-title {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 62px;
+  font-family: sans-serif;
+}
+
+.jumbotron-description {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+}
+
+.btn-trial-text {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+
+/* 
+    Media Query
+*/
+@media screen and (max-width: 1024px) {
+  .jumbotron-textarea-width {
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,84 @@
+.pricing-card-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pricing-card {
+  flex-basis: calc(33.33% - 10px);
+}
+
+.standard-edition-card {
+  background-color: #eb5b2c;
+}
+
+.other-edition-card {
+  background-color: #313c8c;
+}
+
+.pricing-card-image {
+  width: 135px;
+  height: 135px;
+}
+
+.pricing-title {
+  color: white;
+  font-size: 22px;
+  line-height: 32px;
+  font-family: "futura-pt";
+}
+
+.pricing-plan-value {
+  height: 120px;
+}
+
+.pricing-unit-text {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
+
+.pricing-value {
+  color: white;
+  font-size: 71px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
+
+.pricing-item {
+  color: white;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.btn-pricing {
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 40px;
+}
+
+.standard-edition-card-button {
+  color: #eb5b2c;
+}
+
+.other-edition-card-button {
+  color: #313c8c;
+}
+
+/* 
+  Media Query
+*/
+
+@media screen and (max-width: 992px) {
+  .pricing-card {
+    flex-basis: calc(60%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pricing-card {
+    flex-basis: calc(90%);
+  }
+}
